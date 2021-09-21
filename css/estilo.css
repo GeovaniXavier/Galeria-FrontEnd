@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/*'Montserrat'*/
+body {
+    font-family: "Nunito", "Montserrat", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+main{
+    width: 960px;   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    height: 153PX;
+    margin-top: 30px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 a {
+    background: url("../imagens/h1_logo.png") top left no-repeat;
+    display: block;
+    width: 150px;
+    height: 50px;
+    padding-left: 65px;
+    padding-top: 10px;
+    color: #737373;
+    text-decoration: none;
+    font-size: 24px;
+    float: left;
+  }
+
+header h1 a:hover {
+    color: #2ecc71;
+}
+header #menu_social {
+    height: 34px;
+    float: right;
+}
+
+header #menu_social ul li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: left;
+}
+
+header #menu_social ul li a {
+    display: block;
+    width: 34px;
+    height: 34px;
+    margin-left: 5px;
+    text-indent: -999999px;
+}
+header #menu_social ul li a.twitter{
+    background: url(../imagens/twitter.png) no-repeat;
+}
+
+header #menu_social ul li a:hover.twitter {
+background: url(../imagens/twitter_hover.png);
+}
+
+header #menu_social ul li a.facebook{
+    background: url(../imagens/facebook.png) no-repeat;
+}
+
+header #menu_social ul li a:hover.facebook {
+background: url(../imagens/facebook_hover.png);
+}
+
+header #menu_social ul li a.rss{
+    background: url(../imagens/rss.png) no-repeat;
+}
+
+header #menu_social ul li a:hover.rss {
+background: url(../imagens/rss_hover.png);
+}
+
+header #menu_social ul li a.pinterest{
+    background: url(../imagens/pinterest.png) no-repeat;
+}
+
+header #menu_social ul li a:hover.pinterest {
+background: url(../imagens/pinterest_hover.png);
+}
+
+header #menu_social ul li a.google{
+    background: url(../imagens/google.png) no-repeat;
+}
+
+header #menu_social ul li a:hover.google {
+background: url(../imagens/google_hover.png);
+}
+
+header #menu_social ul li a.dribbble{
+    background: url(../imagens/dribbble.png) no-repeat;
+}
+
+header #menu_social ul li a:hover.dribbble {
+background: url(../imagens/dribbble_hover.png);
+}
+
+header #menu_principal {
+    border-top: #dadada solid 1px;
+    clear: both;
+    width: 960px;
+    height: 70px;
+}
+
+header #menu_principal ul li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: left;
+}
+header #menu_principal ul li a {
+    display: block;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 0px;
+    margin: 0px;
+    color: #737373;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    float: left;
+}
+
+#banner {
+
+    background: url(../imagens/bg_banner.png) no-repeat top center;
+    height: 775px;
+   /* 
+   Opção 2 no CSS -
+   background-image: url("../imagens/bg_banner.png");
+    background-position: center top;
+    background-repeat: no-repeat; */
+}
+
+#banner .img_banner {
+    display: block;
+    width: 830px;
+    height: 472px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+  }
+
+  #banner .texto_banner {
+    display: block;
+    width: 750px;
+    height: 60px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+#banner .botao_banner{
+    display: block;
+    background: #2ecc71;
+    width: 215px;
+    height: 35px;
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+#banner a:hover.botao_banner{
+    text-decoration: underline;
+}
+
+
+#conteudo {
+    padding-bottom: 50px;
+    display: block;
+    float: left;
+}
+
+#conteudo .chamada {
+    float: left;
+    width: 300px;
+    margin-left: 15px;
+
+}
+
+#conteudo .titulo_chamada {
+font-size: 18px;
+font-weight: 600;
+}
+
+#conteudo a.leia {
+    background: #6A6A6A;
+    border: #646464 solid 2px;
+    padding: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+#conteudo a:hover.leia{
+    background: #2ecc71;
+}
+
+
+footer{
+    background: #efefef;
+    height: 90px;
+    clear: both;
+}
+footer .texto_rodape {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
